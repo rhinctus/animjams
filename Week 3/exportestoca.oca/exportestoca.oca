@@ -1,0 +1,209 @@
+{
+    "backgroundColor": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "colorDepth": "U8",
+    "endTime": 24,
+    "frameRate": 24,
+    "height": 1080,
+    "layers": [
+        {
+            "animated": true,
+            "blendingMode": "normal",
+            "childLayers": [
+            ],
+            "fileType": "png",
+            "frames": [
+                {
+                    "duration": 12,
+                    "fileName": "1/1_00000.png",
+                    "frameNumber": 0,
+                    "name": "1_00000",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                }
+            ],
+            "height": 1080,
+            "inheritAlpha": false,
+            "label": 0,
+            "name": "1",
+            "opacity": 1,
+            "passThrough": false,
+            "position": [
+                960,
+                540
+            ],
+            "reference": false,
+            "type": "paintlayer",
+            "visible": true,
+            "width": 1920
+        },
+        {
+            "animated": true,
+            "blendingMode": "normal",
+            "childLayers": [
+            ],
+            "fileType": "png",
+            "frames": [
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00000.png",
+                    "frameNumber": 0,
+                    "name": "2_00000",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00002.png",
+                    "frameNumber": 2,
+                    "name": "2_00002",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00004.png",
+                    "frameNumber": 4,
+                    "name": "2_00004",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00006.png",
+                    "frameNumber": 6,
+                    "name": "2_00006",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00008.png",
+                    "frameNumber": 8,
+                    "name": "2_00008",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00010.png",
+                    "frameNumber": 10,
+                    "name": "2_00010",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00012.png",
+                    "frameNumber": 12,
+                    "name": "2_00012",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00014.png",
+                    "frameNumber": 14,
+                    "name": "2_00014",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00016.png",
+                    "frameNumber": 16,
+                    "name": "2_00016",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00018.png",
+                    "frameNumber": 18,
+                    "name": "2_00018",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00020.png",
+                    "frameNumber": 20,
+                    "name": "2_00020",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "fileName": "2/2_00022.png",
+                    "frameNumber": 22,
+                    "name": "2_00022",
+                    "opacity": 1,
+                    "position": [
+                        960,
+                        540
+                    ]
+                }
+            ],
+            "height": 1080,
+            "inheritAlpha": false,
+            "label": 0,
+            "name": "2",
+            "opacity": 1,
+            "passThrough": false,
+            "position": [
+                960,
+                540
+            ],
+            "reference": false,
+            "type": "paintlayer",
+            "visible": true,
+            "width": 1920
+        }
+    ],
+    "name": "exportest",
+    "ocaVersion": "1.1.0",
+    "originApp": "Animation Paper",
+    "originAppVersion": "",
+    "startTime": 0,
+    "width": 1920
+}
