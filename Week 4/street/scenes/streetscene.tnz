@@ -600,10 +600,10 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='4'/>
+          <Toonz_columnFx id='6'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='6'/>
+          <Toonz_columnFx id='4'/>
         </fxnode>
         </terminal>
       <xsheet>
