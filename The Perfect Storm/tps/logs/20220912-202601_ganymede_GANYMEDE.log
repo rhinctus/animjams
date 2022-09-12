@@ -1,0 +1,46 @@
+﻿Log file produced by: Storyboard Pro (StoryboardPro.exe) version 20.10.0 build 16510 2020-11-22 17:46:00
+﻿2022-09-12 20:34:29;Create;C:/Users/GANYMEDE/Desktop/output.pdf; OK 
+﻿2022-09-12 20:34:29;Delete;C:/Users/GANYMEDE/Desktop/output.pdf; OK 
+﻿2022-09-12 20:36:15;Update;C:/Users/GANYMEDE/Desktop/output.pdf; OK 
+﻿2022-09-12 21:03:59;ACTION;Start Saving project
+﻿  2022-09-12 21:03:59;ACTION;Start isSaveProjectPossible (SC_SaveUtil.cpp,225)
+﻿    2022-09-12 21:03:59;Create;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard+; OK 
+﻿    2022-09-12 21:03:59;Delete;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard+; OK 
+﻿  2022-09-12 21:03:59;ACTION;End isSaveProjectPossible (SC_SaveUtil.cpp,225)
+﻿  2022-09-12 21:03:59;ACTION;Start isSaveProjectPossible (SC_SaveUtil.cpp,225)
+﻿    2022-09-12 21:03:59;Create;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard+; OK 
+﻿    2022-09-12 21:03:59;Delete;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard+; OK 
+﻿  2022-09-12 21:03:59;ACTION;End isSaveProjectPossible (SC_SaveUtil.cpp,225)
+﻿  2022-09-12 21:03:59;ACTION;Start TUElementMgr::writeToVersionAuxFile (tuelementmgr.cpp,1978)
+﻿    2022-09-12 21:03:59;Create;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/scene.elementTable; OK 
+﻿  2022-09-12 21:03:59;ACTION;End TUElementMgr::writeToVersionAuxFile (tuelementmgr.cpp,1978)
+﻿  2022-09-12 21:03:59;ACTION;Start saveDrawings - delete drawings (tudrawinglist.cpp,692)
+﻿  2022-09-12 21:03:59;ACTION;End saveDrawings - delete drawings (tudrawinglist.cpp,692)
+﻿  2022-09-12 21:03:59;ACTION;Start saveDrawings - rename to temp name (tudrawinglist.cpp,726)
+﻿  2022-09-12 21:03:59;ACTION;End saveDrawings - rename to temp name (tudrawinglist.cpp,726)
+﻿  2022-09-12 21:03:59;ACTION;Start saveDrawings - rename to final name (tudrawinglist.cpp,754)
+﻿  2022-09-12 21:03:59;ACTION;End saveDrawings - rename to final name (tudrawinglist.cpp,754)
+﻿  2022-09-12 21:03:59;ACTION;Start saveDrawings - copy all drawings from temp to project (tudrawinglist.cpp,792)
+﻿  2022-09-12 21:03:59;ACTION;End saveDrawings - copy all drawings from temp to project (tudrawinglist.cpp,792)
+﻿  2022-09-12 21:03:59;ACTION;Start saveDrawings - save all modified drawings in memory (tudrawinglist.cpp,850)
+﻿  2022-09-12 21:03:59;ACTION;End saveDrawings - save all modified drawings in memory (tudrawinglist.cpp,850)
+﻿  2022-09-12 21:03:59;ACTION;Start saveProject (SC_SaveUtil.cpp,380)
+﻿    2022-09-12 21:03:59;Create;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard+; OK 
+﻿    2022-09-12 21:03:59;Rename;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard~ OK 
+﻿    2022-09-12 21:03:59;Rename;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard+;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard OK 
+﻿    2022-09-12 21:03:59;ACTION;Start writeToVersionAuxFile (tuelementmgr.cpp,2434)
+﻿      2022-09-12 21:03:59;ACTION;Start writeToVersionAuxFile (EM_XMLFileIO.cpp,307)
+﻿        2022-09-12 21:03:59;Rename;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.aux;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.aux~ OK 
+﻿        2022-09-12 21:03:59;Rename;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.aux+;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.aux OK 
+﻿      2022-09-12 21:03:59;ACTION;End writeToVersionAuxFile (EM_XMLFileIO.cpp,307)
+﻿    2022-09-12 21:03:59;ACTION;End writeToVersionAuxFile (tuelementmgr.cpp,2434)
+﻿  2022-09-12 21:03:59;ACTION;End saveProject (SC_SaveUtil.cpp,380)
+﻿  2022-09-12 21:03:59;ACTION;Start writeToDrawingVersionAuxFile (EM_XMLFileIO.cpp,454)
+﻿  2022-09-12 21:03:59;ACTION;End writeToDrawingVersionAuxFile (EM_XMLFileIO.cpp,454)
+﻿  2022-09-12 21:03:59;Create;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/palette-library/tps.plt+; OK 
+﻿  2022-09-12 21:03:59;Rename;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/palette-library/tps.plt;tps.plt~ OK 
+﻿  2022-09-12 21:03:59;Rename;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/palette-library/tps.plt+;tps.plt OK 
+﻿  2022-09-12 21:04:00;Create;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard.thumbnails; OK 
+﻿2022-09-12 21:04:00;ACTION;End Saving project
+﻿2022-09-12 21:04:00;ACTION;Start Closing project
+﻿  2022-09-12 21:04:00;Delete;C:/Users/GANYMEDE/Desktop/stuff/projeeee/animjams/The Perfect Storm/tps/tps.sboard.lock; OK 
