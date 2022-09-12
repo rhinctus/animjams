@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<elements source="Stage (Stage) version 12.1.1 build 10534 2015-07-30 21:10:09" version="1211" build="10534">
+<elements source="Harmony Premium (HarmonyPremium.exe) version 21.0.1 build 17727 2021-11-17 10:57:58" version="2101" build="17727">
  <element id="1" elementName="titlebg" elementFolder="titlebg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="2" elementName="title" elementFolder="title" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="3" elementName="bg" elementFolder="bg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
