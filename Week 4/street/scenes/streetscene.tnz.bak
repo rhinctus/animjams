@@ -1,4 +1,4 @@
-<tnz framecount="2" version="71.1">
+<tnz framecount="552" version="71.1">
   <generator>
     "OpenToonz 1.5 (eXperimental)"
   </generator>
@@ -37,7 +37,7 @@
           24 
         </fps>
         <path>
-          "+outputs/.tif"
+          "+outputs/street.mp4"
         </path>
         <bpp>
           32 
@@ -46,7 +46,7 @@
           0 
         </multimedia>
         <threadsIndex>
-          2 
+          0 
         </threadsIndex>
         <maxTileSizeIndex>
           0 
@@ -67,9 +67,13 @@
           1 
         </gamma>
         <timestretch>
-          25 25 
+          24 24 
         </timestretch>
         <formatsProperties>
+          <formatProperties ext="mp4">
+            <property max="100" min="1" name="Quality" type="int" value="90"/>
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            </formatProperties>
           <formatProperties ext="tif">
             <property name="Byte Ordering" type="enum" value="Mac">
               <item value="IBM PC"/>
@@ -114,7 +118,7 @@
         </output>
       <output name="preview">
         <range>
-          0 -1 
+          1 551 
         </range>
         <step>
           1 
@@ -368,7 +372,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/><level id='2'/>
+        <level id='2'/><level id='1'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -419,6 +423,9 @@
         <cells>
           <cell>
             0 2 <level id='2'/>0001 1 
+          </cell>
+          <cell>
+            2 550 <level id='2'/>0002 0 
           </cell>
           </cells>
         <fx>
@@ -600,10 +607,10 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='4'/>
+          <Toonz_columnFx id='6'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='6'/>
+          <Toonz_columnFx id='4'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -643,7 +650,7 @@
             0 
           </numberId>
           <name>
-            Output 
+            OutputFx 
           </name>
           <fxId>
             "" 
@@ -663,5 +670,8 @@
   <history>
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   09 Aug 22   15:00                |"
+    "| #2   18 Sep 22   17:38                |"
+    "| #3   18 Sep 22   17:38                |"
+    "| #4   18 Sep 22   17:44                |"
   </history>
   </tnz>

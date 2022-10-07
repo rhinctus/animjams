@@ -1,0 +1,13 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="papertest2" ID="1">
+ <Element Name="Draw" ID="1" Folder="Draw">
+  <Drawing Key="" Name="scan001" Version="1"/>
+  <Drawing Key="" Name="scan002" Version="1"/>
+  <Drawing Key="" Name="scan003" Version="1"/>
+  <Drawing Key="" Name="scan004" Version="1"/>
+  <Drawing Key="" Name="scan005" Version="1"/>
+  <Drawing Key="" Name="scan006" Version="1"/>
+  <Drawing Key="" Name="scan007" Version="1"/>
+  <Drawing Key="" Name="scan008" Version="1"/>
+ </Element>
+</SceneVersion>

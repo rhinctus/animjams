@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project source="Harmony Premium (HarmonyPremium.exe) version 21.0.1 build 17727 2021-11-17 10:57:58" version="2101" build="17727" creator="harmony">
+<project source="Stage (Stage) version 12.1.1 build 10534 2015-07-30 21:10:09" version="1211" build="10534" creator="harmony">
  <elements>
   <element id="1" elementName="titlebg" elementFolder="titlebg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
+    <dwg name="2"/>
    </drawings>
   </element>
   <element id="2" elementName="title" elementFolder="title" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -68,19 +69,16 @@
   <framerate val="24"/>
   <zdragging val="true"/>
   <zOrderCompatibilityWith7_3 val="false"/>
-  <pixelPerModelUnitForVectorLayers val="0.28799999999999998"/>
   <pixelPerModelUnitForBitmapLayers val="0.28800000000000009"/>
-  <canvasForBitmapLayers size="65536,65536"/>
   <cameraInSymbols val="true"/>
-  <scaleFactor val="1"/>
-  <convertPalettesColorSpace val="false"/>
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0a645767dc7760e4" nbframes="60" startFrame="2" stopFrame="13">
+  <scene name="Top" id="0a645767dc7760e4" nbframes="384">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
+     <elementSeq exposures="2-384" val="2" id="1"/>
     </column>
     <column type="0" name="ATV-0A645767DC77E465" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
@@ -125,29 +123,36 @@
      <elementSeq exposures="12" val="11" id="4"/>
      <elementSeq exposures="13-60" val="12" id="4"/>
     </column>
-    <column type="0" name="ATV-0B4B4C28D2E1FBC2" display="false" displayOrder="0" width="100" anonymous="true" id="5">
-     <elementSeq exposures="2-60" val="1" id="5"/>
+    <column type="0" name="ATV-0B4B4C28D2E1FBC2" displayOrder="0" width="100" anonymous="true" id="5">
+     <elementSeq exposures="2-384" val="1" id="5"/>
     </column>
     <column type="3" name="ATV-0B4B4C28D2E1FFB9" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0B4B4C28D2E1FFBA" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0B4B4C28D2E1FFBB" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0B4B4C28D2E1FFBC" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0B4B4C28D2E1FFBD" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0B4B4C28D2E1FFBE" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0B4B4C28D2E1FFBF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
    </columns>
    <options>
@@ -160,8 +165,8 @@
     <nodeslist>
      <module type="COMPOSITE" name="Composite" pos="0,0,5" publishUnderTab="Composite">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <compositeMode val="compositeBitmap"/>
@@ -179,20 +184,19 @@
      </module>
      <module type="DISPLAY" name="Display" pos="50,50,6" publishUnderTab="Display">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
      </module>
      <module type="WRITE" name="Write" pos="-50,50,7" publishUnderTab="Write">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <exportToMovie val="false"/>
        <drawingName val="frames/final-"/>
        <moviePath val="frames/output"/>
-       <movieFormat val="com.toonboom.quicktime.legacy"/>
        <movieAudio/>
        <movieVideo/>
        <movieVideoaudio/>
@@ -205,12 +209,6 @@
         <filterResX val="720"/>
         <filterResY val="540"/>
        </enabling>
-       <scriptMovie val="false"/>
-       <scriptEditor val="// Following code will be called at the end of Write Node rendering
-// operations to create a movie file from rendered images.
-
-// ..."/>
-       <colorSpace/>
        <compositePartitioning val="NoCompositePartitioning"/>
        <zPartitionRange val="1" defaultValue="1"/>
        <cleanUpPartitionFolders val="true"/>
@@ -218,8 +216,8 @@
      </module>
      <module type="READ" name="titlebg" pos="-59,-50,8" publishUnderTab="Drawing">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -293,14 +291,8 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <pencilLineDeformationPreserveThickness val="false"/>
-       <pencilLineDeformationQuality val="Low"/>
-       <pencilLineDeformationSmooth val="1"/>
-       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <colorTransformation val="Linear"/>
-       <colorSpace val="sRGB"/>
        <applyMatteToColor val="N"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
@@ -324,14 +316,12 @@
        <alignmentRule val="CENTER_FIRST_PAGE"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
-       <tileHorizontal val="false"/>
-       <tileVertical val="false"/>
       </attrs>
      </module>
      <module type="READ" name="title" pos="0,0,4" publishUnderTab="title">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -405,14 +395,8 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <pencilLineDeformationPreserveThickness val="false"/>
-       <pencilLineDeformationQuality val="Low"/>
-       <pencilLineDeformationSmooth val="1"/>
-       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <colorTransformation val="Linear"/>
-       <colorSpace val="sRGB"/>
        <applyMatteToColor val="N"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
@@ -436,14 +420,12 @@
        <alignmentRule val="CENTER_FIRST_PAGE"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
-       <tileHorizontal val="false"/>
-       <tileVertical val="false"/>
       </attrs>
      </module>
      <module type="READ" name="bg" pos="0,0,3" publishUnderTab="bg">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -517,14 +499,8 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <pencilLineDeformationPreserveThickness val="false"/>
-       <pencilLineDeformationQuality val="Low"/>
-       <pencilLineDeformationSmooth val="1"/>
-       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <colorTransformation val="Linear"/>
-       <colorSpace val="sRGB"/>
        <applyMatteToColor val="N"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
@@ -548,14 +524,12 @@
        <alignmentRule val="CENTER_FIRST_PAGE"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
-       <tileHorizontal val="false"/>
-       <tileVertical val="false"/>
       </attrs>
      </module>
      <module type="READ" name="skench" pos="0,0,2" publishUnderTab="skench">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -629,14 +603,8 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <pencilLineDeformationPreserveThickness val="false"/>
-       <pencilLineDeformationQuality val="Low"/>
-       <pencilLineDeformationSmooth val="1"/>
-       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <colorTransformation val="Linear"/>
-       <colorSpace val="sRGB"/>
        <applyMatteToColor val="N"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
@@ -660,15 +628,13 @@
        <alignmentRule val="CENTER_FIRST_PAGE"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
-       <tileHorizontal val="false"/>
-       <tileVertical val="false"/>
       </attrs>
      </module>
      <module type="READ" name="ref" pos="0,0,1" publishUnderTab="ref">
       <options>
        <disabled val="true"/>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -742,14 +708,8 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <pencilLineDeformationPreserveThickness val="false"/>
-       <pencilLineDeformationQuality val="Low"/>
-       <pencilLineDeformationSmooth val="1"/>
-       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <colorTransformation val="Linear"/>
-       <colorSpace val="sRGB"/>
        <applyMatteToColor val="N"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
@@ -758,7 +718,7 @@
        <textureFilter val="NEAREST_FILTERED"/>
        <adjustPencilThickness val="false"/>
        <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="zoomIndependent"/>
+       <zoomIndependentLineArtThickness val="false"/>
        <multLineArtThickness val="1" defaultValue="1"/>
        <addLineArtThickness val="0" defaultValue="0"/>
        <minLineArtThickness val="0" defaultValue="0"/>
@@ -773,8 +733,6 @@
        <alignmentRule val="CENTER_FIRST_PAGE"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
-       <tileHorizontal val="false"/>
-       <tileVertical val="false"/>
       </attrs>
      </module>
     </nodeslist>
@@ -796,7 +754,6 @@
      <alignmentGuideList selectedGuide="-1"/>
     </meta>
    </metas>
-   <timelineOrderer/>
   </scene>
  </scenes>
  <symbols>

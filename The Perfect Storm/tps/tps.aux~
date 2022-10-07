@@ -1,5 +1,5 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="tps" Modified="2022-09-12 08:27:55" ID="1">
+<SceneVersion VersionName="tps" ID="1">
  <Element Name="Draw" ID="1" Folder="Draw">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
